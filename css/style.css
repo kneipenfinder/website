@@ -1,0 +1,228 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+	padding:0;
+}
+body{
+	font-family:"Open Sans";
+	background:#f8f8f8;
+	color:#262626;
+}
+.fll{
+	float:left;
+}
+.flr{
+	float:right;
+}                                                               
+.clear{
+	clear:both;
+	display:block;
+	visibility:hidden;
+}
+#noscript{
+	text-align:center;
+	background:#ff0000;
+	color:#fff;
+	font-weight:600;
+	font-size:20px;
+	padding:10px 0;
+}
+h2{
+	font-size:18px;
+}
+a{
+	color:#3269a6;
+	text-decoration:none;
+}	
+a:hover{
+	text-decoration:underline;
+}
+.homeButton{
+	margin:20px 0;
+	text-align:center;
+	display:block;
+	padding:15px 0;
+	background: #64aeec;	
+	background: -moz-linear-gradient(top,#79b9ef  0%,#64aeec);
+	background: -ms-linear-gradient(top,#79b9ef  0%,#64aeec);  	
+	background: -webkit-gradient(linear, left top, left bottom, from(#79b9ef ),to(#64aeec));	
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#79b9ef ', endColorstr='#64aeec')";	
+	border:1px solid #6ecac7;
+	text-decoration:none;
+	color:#fff;	
+	letter-spacing:1px;
+	font-weight:700;
+	font-size:24px;
+	border-radius:15px;
+}
+.homeButton:hover{
+	background: #8bcbf3;
+}
+.homeButton img{
+	transition-duration: 0.6s, 0.6s;
+    transition-property: transform;
+}
+.homeButton:hover img{
+	-moz-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.homeButton span{
+	display:block;
+	padding-bottom:10px;
+}
+#content{
+	padding:25px 0;
+}
+.wrapper{
+	margin:0px auto;
+	width:960px;
+}
+#headBar{
+	background: #1b2329 ;	
+	background: -moz-linear-gradient(top,#1b2329  0%,#11161a);
+	background: -ms-linear-gradient(top,#1b2329  0%,#11161a);  	
+	background: -webkit-gradient(linear, left top, left bottom, from(#1b2329 ),to(#11161a));	
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#1b2329 ', endColorstr='#11161a')";
+	height:50px;
+	border-bottom:1px solid #dbdfe2;
+	padding-left:20px;
+}
+a#title{
+	display:block;
+	text-decoration:none;
+	color:#bbb;
+	height:50px;
+	line-height:50px;
+	transition-duration: 0.3s, 0.3s;
+    transition-property: color;
+}
+a#title h1{
+	font-size:20px;
+	font-weight:600;
+}
+a#title:hover{
+	color:#fff;
+}
+#footBar{
+	height:60px;
+	padding:10px 0;
+	background:#ccc;
+	text-align:center;
+}
+.footBarIcon{
+	padding:10px;
+	background:#696969;
+	display:block;
+	margin:0 15px;
+	border-radius:45px;
+	width:40px;
+	height:40px;
+	text-align:center;
+}
+#footer{
+	text-align:center;
+	padding:20px 0;
+	color:#696969;
+	font-size:14px;
+}
+#footer a{
+	text-decoration:none;
+	color:#696969;
+}
+#footer a:hover{
+	text-decoration:underline;
+	color:#000;
+}
+#footer span{
+	padding:0 7px;
+	font-size:12px;
+}
+#socialMedia{
+	margin:0px auto;
+	width:270px;
+}
+#facebookLink:hover{
+	background:#4a66a0;
+}
+#twitterLink:hover{
+	background:#55acee;
+}
+#googleLink:hover{
+	background:#da4835;
+}
+#scanLoader{
+	text-align:center;
+	margin: 20px auto;
+}
+.tac{
+	text-align:center;
+}
